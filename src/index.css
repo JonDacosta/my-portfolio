@@ -1,13 +1,267 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Armata&family=Roboto:ital,wght@0,700;1,700&display=swap');
+
+
+@font-face {
+  font-family: "Codec";
+  src: url(../src/CodecCold-Bold.woff);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+	background-color: #1d1d1b;
+	font-family: "Codec", serif;
 }
+h1,h2,h3 {
+  font-family: "Codec", serif;
+}
+.cursive {
+  font-family: "Roboto", cursive;
+  font-weight: 700;
+}
+
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.home-name {
+  font-size: 3rem;
+}
+.bg-asparagus-800{
+  background-color: #1d1d1b;
+}
+
+.typewriter {
+  /* color:#fff; */
+  width: 12ch;
+  font-family: Codec;
+  overflow: hidden;
+  border-right: 0.3rem solid yellowgreen;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .1em;
+  animation: 
+      typing 2.5s steps(12,end) 1s 1 normal both,
+	  blink-caret 600ms steps(12,end) infinite 1s;
+	  /* typing 2s steps(12), blink-caret 1s step-end infinite alternate; */
+}
+
+/*Efecto escribir*/
+@keyframes typing {
+	from {
+		width: 0
+	  }
+	}
+
+/*Efecto sobre el cursor de escribir*/
+@keyframes blink-caret {
+	50% {
+		border-color: transparent
+	  }
+	}
+
+
+
+/*Efecto Hover Box*/
+.box-outer {
+	overflow: hidden;
+	margin: 50px auto;
+	width: 200px;
+	height: 200px;
+}
+.main_box {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	background: #272323;
+	border: 5px solid #000;
+}
+.bar {
+	position: absolute;
+	width: 50px;
+	height: 5px;
+	background: #2eeb7a;
+	transition: all 1s linear;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+.bar.delay {
+	animation-delay: 0.9s;
+	-webkit-animation-delay: 0.9s;
+}
+.top {
+	top: -5px;
+	left: -5px;
+}
+.right {
+	top: 18px;
+	right: -28px;
+	transform: rotate(90deg);
+}
+.bottom {
+	bottom: -5px;
+	left: -5px;
+}
+.left {
+	top: 18px;
+	left: -28px;
+	transform: rotate(90deg);
+}
+ @-webkit-keyframes h-move {
+ 0% {
+left: -5px;
+}
+100% {
+left: 200px;
+}
+}
+ @keyframes h-move {
+ 0% {
+left: -5px;
+}
+100% {
+left: 200px;
+}
+}
+.top, .bottom {
+	-webkit-animation-name: h-move;
+	animation-name: h-move;
+}
+ @-webkit-keyframes v-move {
+0% {
+top: -5px;
+}
+100% {
+top:228px;
+}
+}
+ @keyframes v-move {
+ 0% {
+top: -5px;
+}
+100% {
+top:228px;
+}
+}
+.right, .left {
+	-webkit-animation-name: v-move;
+	animation-name: v-move;
+}
+
+
+
+/*NavLink Effect*/
+
+.Navlink:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.Navlink:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+/*Colores*/
+
+.spring-green-400{
+	color:#6df1a2;
+}
+.spring-green-500{
+	color:#2eeb7a;
+}
+
+.purple-heart-400{
+	color:#847eea;
+}
+.border-purple-heart-400{
+	border-color:#847eea;
+}
+.purple-heart-500{
+	color:rgb(78, 71, 225);
+}
+
+.purple-shadow{
+	text-shadow: 2px 2px 3px rgba(78, 71, 225);
+}
+
+
+
+/*Button*/
+button {
+	position: relative;
+	font-family: Codec;
+	outline: none;
+	text-decoration: none;
+	border-radius: 50px;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	height: 60px;
+	width: 210px;
+	opacity: 1;
+	background-color: #d6d7db;
+	border: 1px solid rgba(22, 76, 167, 0.6);
+  }
+  button span {
+	color: #164ca7;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0.7px;
+  }
+  button:hover {
+	animation: rotate 0.7s ease-in-out both;
+  }
+  button:hover span {
+	animation: storm 0.7s ease-in-out both;
+	animation-delay: 0.06s;
+  }
+  
+  @keyframes rotate {
+	0% {
+	  transform: rotate(0deg) translate3d(0, 0, 0);
+	}
+	25% {
+	  transform: rotate(3deg) translate3d(0, 0, 0);
+	}
+	50% {
+	  transform: rotate(-3deg) translate3d(0, 0, 0);
+	}
+	75% {
+	  transform: rotate(1deg) translate3d(0, 0, 0);
+	}
+	100% {
+	  transform: rotate(0deg) translate3d(0, 0, 0);
+	}
+  }
+  @keyframes storm {
+	0% {
+	  transform: translate3d(0, 0, 0) translateZ(0);
+	}
+	25% {
+	  transform: translate3d(4px, 0, 0) translateZ(0);
+	}
+	50% {
+	  transform: translate3d(-3px, 0, 0) translateZ(0);
+	}
+	75% {
+	  transform: translate3d(2px, 0, 0) translateZ(0);
+	}
+	100% {
+	  transform: translate3d(0, 0, 0) translateZ(0);
+	}
+  }
