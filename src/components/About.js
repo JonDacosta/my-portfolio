@@ -1,5 +1,5 @@
 import React from "react";
-import sanityClient from "../client";
+
 import bgPerfil from "../bgPerfil-min.jpg";
 import image from "../Perfil-min.jpg";
 import html from "../assets/images/Html.png"
@@ -10,7 +10,7 @@ import git from "../assets/images/Git.png"
 import typescript from "../assets/images/Typescript.png"
 import imgReact from "../assets/images/imgReact.png"
 import bootstrap from "../assets/images/Bootstrap.png"
-import imageUrlBuilder from "@sanity/image-url";
+
 
 
 
@@ -78,7 +78,7 @@ export default function About() {
                         <div class='bar right delay'></div>
                         <div class='bar bottom delay'></div>
                         <div class='bar left'></div>
-                        <img src={html} className="animate__animated animate__flip"></img>
+                        <img src={html} className="animate__animated animate__flip" alt="html"></img>
                     </div>
                     
                 </div>
@@ -88,7 +88,7 @@ export default function About() {
                         <div class='bar right delay'></div>
                         <div class='bar bottom delay'></div>
                         <div class='bar left'></div>
-                        <img src={css} className="animate__animated animate__flip"></img>
+                        <img src={css} className="animate__animated animate__flip" alt="css"></img>
                     </div>
                 </div>
                 <div class='box-outer'>
@@ -97,7 +97,7 @@ export default function About() {
                         <div class='bar right delay'></div>
                         <div class='bar bottom delay'></div>
                         <div class='bar left'></div>
-                        <img src={js} className="animate__animated animate__flip"></img>
+                        <img src={js} className="animate__animated animate__flip" alt="js"></img>
                     </div>
                 </div>
                 <div class='box-outer'>
@@ -106,7 +106,7 @@ export default function About() {
                         <div class='bar right delay'></div>
                         <div class='bar bottom delay'></div>
                         <div class='bar left'></div>
-                        <img src={laravel} className="animate__animated animate__flip"></img>
+                        <img src={laravel} className="animate__animated animate__flip" alt="laravel"></img>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@ export default function About() {
                         <div class='bar right delay'></div>
                         <div class='bar bottom delay'></div>
                         <div class='bar left'></div>
-                        <img src={git} className="animate__animated animate__flip"></img>
+                        <img src={git} className="animate__animated animate__flip" alt="git"></img>
                     </div>
                 </div>
                 <div class='box-outer'>
@@ -126,7 +126,7 @@ export default function About() {
                         <div class='bar right delay'></div>
                         <div class='bar bottom delay'></div>
                         <div class='bar left'></div>
-                        <img src={typescript} className="animate__animated animate__flip"></img>
+                        <img src={typescript} className="animate__animated animate__flip" alt="typescript"></img>
                     </div>
                 </div>
                 <div class='box-outer'>
@@ -135,7 +135,7 @@ export default function About() {
                         <div class='bar right delay'></div>
                         <div class='bar bottom delay'></div>
                         <div class='bar left'></div>
-                        <img src={imgReact} className="animate__animated animate__flip"></img>
+                        <img src={imgReact} className="animate__animated animate__flip" alt="imgReact"></img>
                     </div>
                 </div>
                 <div class='box-outer'>
@@ -144,7 +144,7 @@ export default function About() {
                         <div class='bar right delay'></div>
                         <div class='bar bottom delay'></div>
                         <div class='bar left'></div>
-                        <img src={bootstrap} className="animate__animated animate__flip"></img>
+                        <img src={bootstrap} className="animate__animated animate__flip" alt="bootstrap"></img>
                     </div>
                 </div>
             </div>
