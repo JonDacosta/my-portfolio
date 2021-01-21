@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import sanityClient from "../client";
 import bgPerfil from "../bgPerfil-min.jpg";
 import image from "../Perfil-min.jpg";
