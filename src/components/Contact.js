@@ -34,7 +34,7 @@ export default function Contact() {
 
     return (
 
-        <form onSubmit={handleSubmit} className="container mx-auto relative p-20" action="">
+        <form onSubmit={handleSubmit} className="container mx-auto relative p-20" action="POST" data-netlify="true">
             <div className="form-group mb-4 w-64 pt-20">
                 <label className="block spring-green-400 text-sm font-bold mb-2" for="name">
                     Nombre:
