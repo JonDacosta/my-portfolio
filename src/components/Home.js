@@ -33,6 +33,9 @@ export default function Home() {
                         <NavLink to="/project" className="mt-10 p-2 btn btn-white btn-animation-1" activeClassName="text-green-100 bg-green-500">
                             <button className="mt-10 btn btn-white btn-animation-1"><span>💻 Proyectos</span></button>
                         </NavLink>
+                        <NavLink to="/contact" className="mt-10 p-2 btn btn-white btn-animation-1" activeClassName="text-green-100 bg-green-500">
+                            <button className="mt-10 btn btn-white btn-animation-1"><span>✉ Escríbeme</span></button>
+                        </NavLink>
                     </div>
                     
                     <div className="relative z-10 row-start-1 col-start-1 md:row-start-1 md:col-start-2  px-4 pb-3 md:mt-20 self-center">
