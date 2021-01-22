@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react";
+import swal from 'sweetalert';
 
 export default function Contact() {
     
@@ -10,15 +11,19 @@ export default function Contact() {
     
 
     const { name, email, message } = formState;
-
+    const form = getElementById("form");
     useEffect( () => {
         console.log('email cambió')
     }, [ email ]);
+
+    
 
     const handleSubmit = (e) => {
         e.preventDefault();
         
         console.log( formState );
+        swal("Mensaje enviado", "Muchas gracias!", "success");
+        
     }
 
     const handleInputChange = ({ target }) => {
@@ -34,7 +39,7 @@ export default function Contact() {
 
     return (
 
-        <form onSubmit={handleSubmit} className="container mx-auto relative p-20" action="POST" data-netlify="true">
+        <form onSubmit={handleSubmit} className="container mx-auto relative p-20" method="POST" data-netlify="true" id="form">
             <div className="form-group mb-4 w-64 pt-20">
                 <label className="block spring-green-400 text-sm font-bold mb-2" for="name">
                     Nombre:
