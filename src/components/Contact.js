@@ -11,7 +11,7 @@ export default function Contact() {
     
 
     const { name, email, message } = formState;
-    const form = getElementById("form");
+    
     useEffect( () => {
         console.log('email cambió')
     }, [ email ]);
