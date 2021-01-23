@@ -39,7 +39,7 @@ export default function Contact() {
 
     return (
 
-        <form onSubmit={handleSubmit} className="container mx-auto relative p-20" method="POST" data-netlify="true" id="form">
+        <form onSubmit={handleSubmit} className="container mx-auto relative p-20 grid justify-items-auto place-content-center" method="POST" data-netlify="true" id="form">
             <div className="form-group mb-4 w-64 pt-20">
                 <label className="block spring-green-400 text-sm font-bold mb-2" for="name">
                     Nombre:
@@ -49,7 +49,7 @@ export default function Contact() {
                     name="name" 
                     type="text"
                     required
-                    placeholder="Nombre"
+                    placeholder="Furguson"
                     value={ name }
                     onChange={ handleInputChange }
                 />
@@ -63,7 +63,7 @@ export default function Contact() {
                     name="email" 
                     type="email"
                     required 
-                    placeholder="abc@abc.com"
+                    placeholder="Furguson@catmail.com"
                     value={ email }
                     onChange={ handleInputChange }
                 />
@@ -76,12 +76,12 @@ export default function Contact() {
                     className="h-64 justify-start form-control shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" 
                     name="message" 
                     type="textarea" 
-                    placeholder="Escribir aquí"
+                    placeholder="Me pasaba a saludar..."
                     value={ message }
                     onChange={ handleInputChange }
                 />
             </div>
-            <div className="flex items-center justify-between mt-20">
+            <div className="grid place-content-center mt-20">
                 <button className="bg-green-500 hover:bg-green-700 text-white hover:text-purple-900 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
                     Enviar
                 </button>
