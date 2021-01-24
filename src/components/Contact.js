@@ -1,14 +1,6 @@
 import React, { useEffect, useState } from "react";
 import swal from 'sweetalert';
 
-
-
-const encode = (data) => {
-    return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
-  }
-
 export default function Contact() {
     
     const [formState, setFormState] = useState({
@@ -26,24 +18,13 @@ export default function Contact() {
 
     
 
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
+    const handleSubmit = (e) => {
+        e.preventDefault();
         
-    //     console.log( formState );
-    //     swal("Mensaje enviado", "Muchas gracias!", "success");
+        console.log( formState );
+        swal("Mensaje enviado", "Muchas gracias!", "success");
         
-    // }
-    const handleSubmit = target => {
-        fetch("/", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: encode({ "form-name": "contact", ...formState })
-        })
-          .then(() => swal("Mensaje enviado", "Muchas gracias!", "success"))
-          .catch(error => alert(error));
-  
-        target.preventDefault();
-      };
+    }
 
     const handleInputChange = ({ target }) => {
         
@@ -58,7 +39,7 @@ export default function Contact() {
 
     return (
 
-        <form onSubmit={handleSubmit} className="container mx-auto relative p-20 grid justify-items-auto place-content-center" method="POST" data-netlify="true" name="contact">
+        <form onSubmit={handleSubmit} className="container mx-auto relative p-20 grid justify-items-auto place-content-center" method="POST" netlify name="contact">
             <div className="form-group mb-4 w-64 pt-20">
                 <label className="block spring-green-400 text-sm font-bold mb-2" for="name">
                     Nombre:
