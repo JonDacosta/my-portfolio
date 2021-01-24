@@ -1,6 +1,14 @@
 import React, { useEffect, useState } from "react";
 import swal from 'sweetalert';
 
+
+
+const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  }
+
 export default function Contact() {
     
     const [formState, setFormState] = useState({
@@ -18,13 +26,24 @@ export default function Contact() {
 
     
 
-    const handleSubmit = (e) => {
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+        
+    //     console.log( formState );
+    //     swal("Mensaje enviado", "Muchas gracias!", "success");
+        
+    // }
+    const handleSubmit = e => {
+        fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: encode({ "form-name": "contact", ...formState })
+        })
+          .then(() => swal("Mensaje enviado", "Muchas gracias!", "success"))
+          .catch(error => alert(error));
+  
         e.preventDefault();
-        
-        console.log( formState );
-        swal("Mensaje enviado", "Muchas gracias!", "success");
-        
-    }
+      };
 
     const handleInputChange = ({ target }) => {
         
