@@ -33,7 +33,7 @@ export default function Contact() {
     //     swal("Mensaje enviado", "Muchas gracias!", "success");
         
     // }
-    const handleSubmit = e => {
+    const handleSubmit = target => {
         fetch("/", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -42,7 +42,7 @@ export default function Contact() {
           .then(() => swal("Mensaje enviado", "Muchas gracias!", "success"))
           .catch(error => alert(error));
   
-        e.preventDefault();
+        target.preventDefault();
       };
 
     const handleInputChange = ({ target }) => {
