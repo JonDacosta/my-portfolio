@@ -1,5 +1,4 @@
 import React from "react"
-import image from "../backgroundColor.jpg";
 import Perfil from "../Perfil-min.jpg";
 import { NavLink } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
