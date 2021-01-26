@@ -7,15 +7,15 @@ export default function Project() {
 
 
     return (
-        <main className="bg-gray-300 min-h-screen p-12">
+        <main className="min-h-screen p-12">
             <section className="container mx-auto">
-                <h1 className="text-5xl flex justify-center cursive">Mis Proyectos</h1>
-                <h2 className="text-lg text-gray-600 flex justify-center mb-12">Bienvenidos a las zona de mis proyectos</h2>
+                <h1 className="whitespace-nowrap text-lg sm:text-3xl md:text-4xl lg:text-5xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__backInLeft lg:uppercase text-center">Mis Proyectos</h1>
+                <h2 className="whitespace-nowrap text-lg sm:text-xl md:text-2xl lg:text-3xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__backInRight mb-12 text-center">Bienvenidos a las zona de mis proyectos</h2>
                 
                 <section className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                    {/* Proyecto 01 */}
                         <article className="relative rounded-lg shadow-xl bg-white p-5 sm:p-16">
-                            <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
+                            <h3 className="text-gray-700 text-3xl font-bold mb-2 hover:text-green-300 underline">
                                 <a
                                    href="https://jondacosta.github.io/React-GifApp/"
                                     alt="Gif"
@@ -49,7 +49,7 @@ export default function Project() {
                                     href="https://jondacosta.github.io/React-GifApp/" 
                                     rel="noopener noreferrer" 
                                     target="_blank" 
-                                    className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl"
+                                    className="text-purple-500 font-bold hover:underline hover:text-red-400 text-xl"
                                 >
                                     Ver el Proyecto{" "}
                                     <span role="img" aria-label="right pointer">
@@ -61,7 +61,7 @@ export default function Project() {
                     {/* /////////////////////////////////////////////////////// */}
                     {/* Proyecto 02 */}
                     <article className="relative rounded-lg shadow-xl bg-white p-5 sm:p-16">
-                            <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
+                            <h3 className="text-gray-700 text-3xl font-bold mb-2 hover:text-green-300">
                                 <a
                                    href="https://jondacosta.github.io/React-GifApp/"
                                     alt="Gif"
@@ -95,7 +95,7 @@ export default function Project() {
                                     href="https://jondacosta.github.io/Landing-CarApp/" 
                                     rel="noopener noreferrer" 
                                     target="_blank" 
-                                    className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl"
+                                    className="text-purple-500 font-bold hover:underline hover:text-red-400 text-xl"
                                 >
                                     Ver el Proyecto{" "}
                                     <span role="img" aria-label="right pointer">
@@ -107,7 +107,7 @@ export default function Project() {
                     {/* /////////////////////////////////////////////////////// */}
                     {/* Proximamente */}
                     <article className="relative rounded-lg shadow-xl bg-white p-5 sm:p-16">
-                            <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
+                            <h3 className="text-gray-700 text-3xl font-bold mb-2 ">
                                 <p
                                 >
                                     Actualizando nuevos proyectos...

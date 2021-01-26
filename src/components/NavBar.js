@@ -15,9 +15,6 @@ export default function NavBar() {
                              className="block" 
                         />
                     </NavLink>
-                    {/* <NavLink to="/post" className="invisible sm:visible md:text-2xl inline-flex items-center py-3 px-3 my-6 rounded text-green-200 hover:text-green-800" activeClassName="text-purple-500 underline">
-                        Blog Posts
-                    </NavLink> */}
                     <NavLink to="/project" className="block invisible sm:visible md:text-2xl inline-flex items-center py-3 px-3 my-6 rounded text-green-200 hover:text-green-800" activeClassName="text-purple-500 underline">
                         Proyectos
                     </NavLink>

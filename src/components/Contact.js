@@ -12,7 +12,7 @@ export default function Contact() {
   
     return (
       <div className="container mx-auto relative">
-        <h2 className="text-center spring-green-400 text-3xl font-bold pt-10">Contacto</h2>
+        <h2 className="whitespace-nowrap text-lg sm:text-3xl md:text-4xl lg:text-5xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__backInLeft lg:uppercase text-center mt-20">Contacto</h2>
         {success && (
             <p className="text-center pt-3 text-2xl" style={{ color: "green" }}>Gracias por tu mensaje! </p>
           )}
@@ -24,7 +24,7 @@ export default function Contact() {
               data-netlify="true"
               className="container mx-auto relative p-20 grid justify-items-auto place-content-center" 
               >
-            <div className="form-group mb-4 w-64 pt-20">
+            <div className="form-group mb-4 w-64 pt-10">
                 <input type="hidden" name="form-name" value="contact" />
                 <label className="block spring-green-400 text-sm font-bold mb-2" for="name">
                     Nombre:
