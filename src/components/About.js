@@ -38,8 +38,8 @@ export default function About() {
     return (
         <main className="relative">
             {/* <img src={bgPerfil} alt="Foto perfil" className="absolute w-full h-full object-cover"/> */}
-            <div className="sm:p-10 lg:pt-48 container mx-auto relative">
-                <section className="bg-gray-700 rounded-lg shadow-2xl lg:flex p-20">
+            <div className="sm:p-10 lg:pt-48 container mx-auto relative ">
+                <section className="bg-gray-700 rounded-lg shadow-2xl lg:flex p-5 sm:p-16 m-2">
                     <img src={image} className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8 shadow-2xl" alt="autor"/>
                     <div className="text-lg flex flex-col justify-center">
                         <h1 className="whitespace-nowrap text-lg sm:text-3xl md:text-4xl lg:text-5xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__backInLeft mb-4 mt-3">

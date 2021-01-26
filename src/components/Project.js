@@ -7,10 +7,10 @@ export default function Project() {
 
 
     return (
-        <main className="min-h-screen p-12">
+        <main className="min-h-screen p-5 pt-10 lg:pt-20">
             <section className="container mx-auto">
                 <h1 className="whitespace-nowrap text-lg sm:text-3xl md:text-4xl lg:text-5xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__backInLeft lg:uppercase text-center">Mis Proyectos</h1>
-                <h2 className="whitespace-nowrap text-lg sm:text-xl md:text-2xl lg:text-3xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__backInRight mb-12 text-center">Bienvenidos a las zona de mis proyectos</h2>
+                <h2 className="whitespace-nowrap text-sm md:text-2xl lg:text-3xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__backInRight mb-12 text-center whitespace-pre-line">Bienvenidos a las zona de mis proyectos</h2>
                 
                 <section className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                    {/* Proyecto 01 */}
