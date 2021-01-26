@@ -108,10 +108,10 @@ export default function Project() {
                     {/* Proximamente */}
                     <article className="relative rounded-lg shadow-xl bg-white p-5 sm:p-16">
                             <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
-                                <a className=""
+                                <p
                                 >
                                     Actualizando nuevos proyectos...
-                                </a>
+                                </p>
                             </h3>
                             <div className="text-gray-500 text-xs space-x-0">
                                 <span>
