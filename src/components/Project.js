@@ -14,7 +14,7 @@ export default function Project() {
                 
                 <section className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                    {/* Proyecto 01 */}
-                        <article className="relative rounded-lg shadow-xl bg-white p-16">
+                        <article className="relative rounded-lg shadow-xl bg-white p-5 sm:p-16">
                             <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
                                 <a
                                    href="https://jondacosta.github.io/React-GifApp/"
@@ -25,7 +25,7 @@ export default function Project() {
                                     Buscador Gif con API (GIPHY) en React
                                 </a>
                             </h3>
-                            <div className="text-gray-500 text-xs space-x-4">
+                            <div className="text-gray-500 text-xs space-x-0">
                                 <span>
                                     <strong className="font-bold">Acabado en:</strong>:{" "}
                                     {/* {new Date(project.date).toLocaleDateString()} */}
@@ -60,7 +60,7 @@ export default function Project() {
                         </article>
                     {/* /////////////////////////////////////////////////////// */}
                     {/* Proyecto 02 */}
-                    <article className="relative rounded-lg shadow-xl bg-white p-16">
+                    <article className="relative rounded-lg shadow-xl bg-white p-5 sm:p-16">
                             <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
                                 <a
                                    href="https://jondacosta.github.io/React-GifApp/"
@@ -71,7 +71,7 @@ export default function Project() {
                                     Ejemplo Landing para una APP
                                 </a>
                             </h3>
-                            <div className="text-gray-500 text-xs space-x-4">
+                            <div className="text-gray-500 text-xs space-x-0">
                                 <span>
                                     <strong className="font-bold">Acabado en:</strong>:{" "}
                                     {/* {new Date(project.date).toLocaleDateString()} */}
@@ -106,14 +106,14 @@ export default function Project() {
                         </article>
                     {/* /////////////////////////////////////////////////////// */}
                     {/* Proximamente */}
-                    <article className="relative rounded-lg shadow-xl bg-white p-16">
+                    <article className="relative rounded-lg shadow-xl bg-white p-5 sm:p-16">
                             <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
-                                <p
+                                <a className=""
                                 >
-                                    Actualizando nuesvos proyectos...
-                                </p>
+                                    Actualizando nuevos proyectos...
+                                </a>
                             </h3>
-                            <div className="text-gray-500 text-xs space-x-4">
+                            <div className="text-gray-500 text-xs space-x-0">
                                 <span>
                                     <strong className="font-bold">Acabado en:</strong>:{" "}
                                     {/* {new Date(project.date).toLocaleDateString()} */}

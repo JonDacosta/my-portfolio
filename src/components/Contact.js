@@ -12,7 +12,7 @@ export default function Contact() {
   
     return (
       <div className="container mx-auto relative">
-        <h2 className="text-center spring-green-400 text-3xl font-bold">Contacto</h2>
+        <h2 className="text-center spring-green-400 text-3xl font-bold pt-10">Contacto</h2>
         {success && (
             <p className="text-center pt-3 text-2xl" style={{ color: "green" }}>Gracias por tu mensaje! </p>
           )}
