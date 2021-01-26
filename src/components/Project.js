@@ -14,6 +14,52 @@ export default function Project() {
                 
                 <section className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                    {/* Proyecto 01 */}
+                   <article className="relative rounded-lg shadow-xl bg-white p-5 sm:p-16">
+                            <h3 className="text-gray-700 text-3xl font-bold mb-2 hover:text-green-300 underline">
+                                <a
+                                   href="https://jondacosta.github.io/Landing-CarApp/"
+                                    alt="Gif"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Ejemplo Landing para una APP
+                                </a>
+                            </h3>
+                            <div className="text-gray-500 text-xs space-x-0">
+                                <span>
+                                    <strong className="font-bold">Acabado en:</strong>:{" "}
+                                    {/* {new Date(project.date).toLocaleDateString()} */}
+                                    01/09/2020
+                                </span>
+                                <span>
+                                    <strong className="font-bold">Lugar</strong>:{" "}
+                                    {/* {project.place} */}
+                                    Ourense, Galicia
+                                </span>
+                                <span>
+                                    <strong className="font-bold">Tipo</strong>:{" "}
+                                    {/* {project.projectType} */}
+                                    Personal
+                                </span>
+                                <p className="my-6 text-lg text-gray-700 leading-relaxed">
+                                    {/* {project.description} */}
+                                    Landing sencilla para la presentación de una APP utilizando HTML5, CSS con bootstrap y JavaScript. Pequeño efecto en las imágenes, temporizador en testimonials controlado por JS.
+                                </p>
+                                <a 
+                                    href="https://jondacosta.github.io/Landing-CarApp/" 
+                                    rel="noopener noreferrer" 
+                                    target="_blank" 
+                                    className="text-purple-500 font-bold hover:underline hover:text-red-400 text-xl"
+                                >
+                                    Ver el Proyecto{" "}
+                                    <span role="img" aria-label="right pointer">
+                                        👉
+                                    </span>
+                                </a>
+                            </div>
+                        </article>
+                    {/* /////////////////////////////////////////////////////// */}
+                   {/* Proyecto 02 */}
                         <article className="relative rounded-lg shadow-xl bg-white p-5 sm:p-16">
                             <h3 className="text-gray-700 text-3xl font-bold mb-2 hover:text-green-300 underline">
                                 <a
@@ -59,52 +105,7 @@ export default function Project() {
                             </div>
                         </article>
                     {/* /////////////////////////////////////////////////////// */}
-                    {/* Proyecto 02 */}
-                    <article className="relative rounded-lg shadow-xl bg-white p-5 sm:p-16">
-                            <h3 className="text-gray-700 text-3xl font-bold mb-2 hover:text-green-300">
-                                <a
-                                   href="https://jondacosta.github.io/React-GifApp/"
-                                    alt="Gif"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Ejemplo Landing para una APP
-                                </a>
-                            </h3>
-                            <div className="text-gray-500 text-xs space-x-0">
-                                <span>
-                                    <strong className="font-bold">Acabado en:</strong>:{" "}
-                                    {/* {new Date(project.date).toLocaleDateString()} */}
-                                    01/09/2020
-                                </span>
-                                <span>
-                                    <strong className="font-bold">Lugar</strong>:{" "}
-                                    {/* {project.place} */}
-                                    Ourense, Galicia
-                                </span>
-                                <span>
-                                    <strong className="font-bold">Tipo</strong>:{" "}
-                                    {/* {project.projectType} */}
-                                    Personal
-                                </span>
-                                <p className="my-6 text-lg text-gray-700 leading-relaxed">
-                                    {/* {project.description} */}
-                                    Landing sencilla para la presentación de una APP utilizando HTML5, CSS con bootstrap y JavaScript. Pequeño efecto en las imágenes, temporizador en testimonials controlado por JS.
-                                </p>
-                                <a 
-                                    href="https://jondacosta.github.io/Landing-CarApp/" 
-                                    rel="noopener noreferrer" 
-                                    target="_blank" 
-                                    className="text-purple-500 font-bold hover:underline hover:text-red-400 text-xl"
-                                >
-                                    Ver el Proyecto{" "}
-                                    <span role="img" aria-label="right pointer">
-                                        👉
-                                    </span>
-                                </a>
-                            </div>
-                        </article>
-                    {/* /////////////////////////////////////////////////////// */}
+                    
                     {/* Proximamente */}
                     <article className="relative rounded-lg shadow-xl bg-white p-5 sm:p-16">
                             <h3 className="text-gray-700 text-3xl font-bold mb-2 ">
