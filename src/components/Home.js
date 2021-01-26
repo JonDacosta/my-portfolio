@@ -9,23 +9,23 @@ export default function Home() {
     return (
         
         <main className="relative">
-            <img 
+            {/* <img 
                 src={image} 
                 alt="universe background" 
                 className="sm:w-full absolute h-screen min-h-full min-w-auto object-cover bg-repeat bg-repeat-y"
-            />
+            /> */}
             
             
-            <section className="justify-center min-h-screen pt-12 lg:pt-40 px-8">
+            <section className="justify-center max-h-screen pt-12 lg:pt-40 px-8">
                 
-                <div className="grid grid-rows-2 grid-cols-1 md:grid-cols-2 sm:px-8 sm:py-12 sm:gap-x-8 md:py-16 text-center auto-rows-fr">
+                <div className="grid grid-cols-1 md:grid-cols-2 sm:px-8 sm:py-12 sm:gap-x-8 md:py-16 text-center auto-rows-fr">
                         <div className="relative row-start-2 col-start-1 md:row-start-1 md:col-start-1 px-4 pb-3 mb-0 self-center h-full">
 
-                            <h2 className="whitespace-nowrap text-lg sm:text-3xl md:text-3xl lg:text-5xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__backInLeft lg:uppercase">Hola! Soy Jon.</h2>
+                            <h2 className="whitespace-nowrap text-lg sm:text-3xl md:text-4xl lg:text-5xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__backInLeft lg:uppercase">Hola! Soy Jon.</h2>
                             <br />
-                            <h2 className="whitespace-nowrap text-lg sm:text-3xl md:text-3xl lg:text-5xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__slideInLeft lg:uppercase">Desarrollador Frontend</h2>
+                            <h2 className="whitespace-nowrap text-lg sm:text-3xl md:text-4xl lg:text-5xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__slideInLeft lg:uppercase">Desarrollador Frontend</h2>
                             <br />
-                            <h2 className="typewriter whitespace-normal text-3xl sm:text-2xl lg:text-5xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__slideInLeft lg:uppercase">Bienvenidos</h2>
+                            <h2 className="typewriter whitespace-normal text-3xl sm:text-2xl md:text-4xl lg:text-5xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__slideInLeft lg:uppercase">Bienvenidos</h2>
                             <div className="sm:inline-flex pt-3 px-3 my-6 items-center justify-between">
                                 <NavLink to="/about" className="mt-10 p-2 btn btn-white btn-animation-1" activeClassName="text-green-100 bg-green-500">
                                     <button className="mt-10 btn btn-white btn-animation-1"><span>➕ Sobre Mi</span></button>

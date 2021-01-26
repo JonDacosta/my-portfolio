@@ -59,7 +59,7 @@ export default function Project() {
                             </div>
                         </article>
                     {/* /////////////////////////////////////////////////////// */}
-                    {/* Proyecto 01 */}
+                    {/* Proyecto 02 */}
                     <article className="relative rounded-lg shadow-xl bg-white p-16">
                             <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
                                 <a
@@ -68,14 +68,14 @@ export default function Project() {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    Ejemplo SPA
+                                    Ejemplo Landing para una APP
                                 </a>
                             </h3>
                             <div className="text-gray-500 text-xs space-x-4">
                                 <span>
                                     <strong className="font-bold">Acabado en:</strong>:{" "}
                                     {/* {new Date(project.date).toLocaleDateString()} */}
-                                    01/08/2020
+                                    01/09/2020
                                 </span>
                                 <span>
                                     <strong className="font-bold">Lugar</strong>:{" "}
@@ -89,10 +89,10 @@ export default function Project() {
                                 </span>
                                 <p className="my-6 text-lg text-gray-700 leading-relaxed">
                                     {/* {project.description} */}
-                                    Actualmente estoy aprendiendo React y esta es mi primera app para busqueda de gif's, es muy utilizada por las principales aplicaciones de mensajería conectándose a GIPHY.
+                                    Landing sencilla para la presentación de una APP utilizando HTML5, CSS con bootstrap y JavaScript. Pequeño efecto en las imágenes, temporizador en testimonials controlado por JS.
                                 </p>
                                 <a 
-                                    href="https://jondacosta.github.io/React-GifApp/" 
+                                    href="https://jondacosta.github.io/Landing-CarApp/" 
                                     rel="noopener noreferrer" 
                                     target="_blank" 
                                     className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl"
@@ -102,6 +102,38 @@ export default function Project() {
                                         👉
                                     </span>
                                 </a>
+                            </div>
+                        </article>
+                    {/* /////////////////////////////////////////////////////// */}
+                    {/* Proximamente */}
+                    <article className="relative rounded-lg shadow-xl bg-white p-16">
+                            <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
+                                <p
+                                >
+                                    Actualizando nuesvos proyectos...
+                                </p>
+                            </h3>
+                            <div className="text-gray-500 text-xs space-x-4">
+                                <span>
+                                    <strong className="font-bold">Acabado en:</strong>:{" "}
+                                    {/* {new Date(project.date).toLocaleDateString()} */}
+                                    00/00/0000
+                                </span>
+                                <span>
+                                    <strong className="font-bold">Lugar</strong>:{" "}
+                                    {/* {project.place} */}
+                                    Ourense, Galicia
+                                </span>
+                                <span>
+                                    <strong className="font-bold">Tipo</strong>:{" "}
+                                    {/* {project.projectType} */}
+                                    -------
+                                </span>
+                                <p className="my-6 text-lg text-gray-700 leading-relaxed">
+                                    {/* {project.description} */}
+                                    
+                                </p>
+                                
                             </div>
                         </article>
                     {/* /////////////////////////////////////////////////////// */}

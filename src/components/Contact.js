@@ -41,7 +41,7 @@ export default function Contact() {
                 <label className="block spring-green-400 text-sm font-bold mb-2" for="message">
                     Mensaje:
                 </label>      
-                    <input
+                    <textarea
                     multiline
                     id="standard-multiline-static"
                     placeholder="Me pasaba a saludar..."

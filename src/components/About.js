@@ -53,7 +53,7 @@ export default function About() {
                                 Jr. Frontend dev !! CS en Desarrollo de aplicaciones Web. Me apasiona el desarrollo y diseño en web!
                                 <br />
                                 <br />
-                                Me gusta cada día ir aprendiendo cosas nuevas sobre UX/UI, accesibilidad, patrones de diseño, arquitectura de software o maneras de mejorar el código que vamos a escribir.
+                                Me gusta cada día ir aprendiendo cosas nuevas sobre UX/UI, accesibilidad, patrones de diseño, arquitectura de software y cualquier manera de mejorar el código que vamos a escribir.
                                 Aprendiendo React, con lo que he realizado este portfolio y como futuras tecnologías que me gustaría aprender se encuentra Vuejs, e ir poco a poco adentrándome en la parte de backend.
                                 <br />
                                 <br />
@@ -67,7 +67,7 @@ export default function About() {
                 </section>
             </div>
             <div className="p-10 container mx-auto relative text-center">
-                <h2 className="text-3xl sm:text-6xl text-gray-700 mb-4 mt-3 underline">Lenguajes de programación</h2>
+                <h2 className="text-3xl sm:text-6xl text-gray-700 mb-4 mt-3 underline">Conocimientos</h2>
             </div>
             
             <div className="p-10 lg:pt-30 container mx-auto relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-4">

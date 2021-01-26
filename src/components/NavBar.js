@@ -5,14 +5,14 @@ import Logodev from "../Logodev.png";
 
 export default function NavBar() {
     return (
-        <header className="bg-asparagus-800 sm:flex sm:justify-between sm:px-4 sm:py-3 sm:items-center">
+        <header className="bg-asparagus-800 sm:flex sm:justify-between sm:px-4 sm:py-3 sm:items-center max-h-28">
             <div className="container mx-auto flex items-center justify-center sm:justify-between w-screen">
                 <nav className="flex justify-center">
                     {/* Logo Navbar */}
-                    <NavLink to="/" exact activeClassName="text-white" className="w-auto h-auto relative flex-grow items-center">
+                    <NavLink to="/" exact activeClassName="text-white" className="w-auto sm:w-24 h-auto relative inline-flex items-center block">
                         <img src={Logodev} 
                              alt="Logo" 
-                             className="block sm:flex sm:relative" 
+                             className="block" 
                         />
                     </NavLink>
                     {/* <NavLink to="/post" className="invisible sm:visible md:text-2xl inline-flex items-center py-3 px-3 my-6 rounded text-green-200 hover:text-green-800" activeClassName="text-purple-500 underline">
