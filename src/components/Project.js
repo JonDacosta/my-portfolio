@@ -105,6 +105,52 @@ export default function Project() {
                             </div>
                         </article>
                     {/* /////////////////////////////////////////////////////// */}
+                    {/* Proyecto 03 */}
+                    <article className="relative rounded-lg shadow-xl bg-white p-5 sm:p-16">
+                            <h3 className="text-gray-700 text-3xl font-bold mb-2 hover:text-green-300 underline">
+                                <a
+                                   href="https://github.com/JonDacosta/PFG---Apuntes-en-Laravel"
+                                    alt="Gif"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Plataforma de Apuntes DAW (PFG DAW)
+                                </a>
+                            </h3>
+                            <div className="text-gray-500 text-xs space-x-0">
+                                <span>
+                                    <strong className="font-bold">Acabado en:</strong>:{" "}
+                                    {/* {new Date(project.date).toLocaleDateString()} */}
+                                    20/12/2020
+                                </span>
+                                <span>
+                                    <strong className="font-bold">Lugar</strong>:{" "}
+                                    {/* {project.place} */}
+                                    Ourense, Galicia
+                                </span>
+                                <span>
+                                    <strong className="font-bold">Tipo</strong>:{" "}
+                                    {/* {project.projectType} */}
+                                    Escolar
+                                </span>
+                                <p className="my-6 text-lg text-gray-700 leading-relaxed">
+                                    {/* {project.description} */}
+                                    Para el proyecto final del ciclo he creado una plataforma con PHP-Laravel y mySql donde poder subir apuntes mediante formulario (usuarios registrados), estos cuentan con un botón de "like" y están categorizados entre los distintos módulos del cilo DAW.
+                                </p>
+                                <a 
+                                    href="https://github.com/JonDacosta/PFG---Apuntes-en-Laravel" 
+                                    rel="noopener noreferrer" 
+                                    target="_blank" 
+                                    className="text-purple-500 font-bold hover:underline hover:text-red-400 text-xl"
+                                >
+                                    Ver el Código{" "}
+                                    <span role="img" aria-label="right pointer">
+                                        👉
+                                    </span>
+                                </a>
+                            </div>
+                        </article>
+                    {/* /////////////////////////////////////////////////////// */}
                     
                     {/* Proximamente */}
                     <article className="relative rounded-lg shadow-xl bg-white p-5 sm:p-16">
