@@ -60,7 +60,7 @@ export default function About() {
                                 Actualmente estoy buscando un puesto de desarrollador 💻
                                 <br />
                                 <br />
-                                ❤ 😺 & 🎵
+                                ❤ 😺, 🎵 & ☕ 
                             </p>
                         </div>
                     </div>
