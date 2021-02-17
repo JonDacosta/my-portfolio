@@ -50,14 +50,14 @@ export default function About() {
                         <div className="prose lg:prose-xl text-white">
                             {/* <BlockContent blocks={author.bio} projectId="aifzlsny" dataset="production" /> */}
                             <p className="prose lg:prose-xl text-white">
-                                Jr. Frontend dev !! CS en Desarrollo de aplicaciones Web. Me apasiona el desarrollo y diseño en web!
+                                Desarrollador web Jr !! CS en Desarrollo de aplicaciones Web. Me apasiona el desarrollo y diseño en web!
                                 <br />
                                 <br />
                                 Me gusta cada día ir aprendiendo cosas nuevas sobre UX/UI, accesibilidad, patrones de diseño, arquitectura de software y cualquier manera de mejorar el código que vamos a escribir.
                                 Aprendiendo React, con lo que he realizado este portfolio y como futuras tecnologías que me gustaría aprender se encuentra Vuejs, e ir poco a poco adentrándome en la parte de backend.
                                 <br />
                                 <br />
-                                Actualmente estoy buscando un puesto de desarrollador Frontend 💻
+                                Actualmente estoy buscando un puesto de desarrollador 💻
                                 <br />
                                 <br />
                                 ❤ 😺 & 🎵

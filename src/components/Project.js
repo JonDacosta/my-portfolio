@@ -27,17 +27,17 @@ export default function Project() {
                             </h3>
                             <div className="text-gray-500 text-xs space-x-0">
                                 <span>
-                                    <strong className="font-bold">Acabado en:</strong>:{" "}
+                                    <strong className="font-bold">Acabado en: </strong>:{" "}
                                     {/* {new Date(project.date).toLocaleDateString()} */}
                                     01/09/2020
                                 </span>
                                 <span>
-                                    <strong className="font-bold">Lugar</strong>:{" "}
+                                    <strong className="font-bold">Lugar </strong>:{" "}
                                     {/* {project.place} */}
                                     Ourense, Galicia
                                 </span>
                                 <span>
-                                    <strong className="font-bold">Tipo</strong>:{" "}
+                                    <strong className="font-bold">Tipo </strong>:{" "}
                                     {/* {project.projectType} */}
                                     Personal
                                 </span>
@@ -73,17 +73,17 @@ export default function Project() {
                             </h3>
                             <div className="text-gray-500 text-xs space-x-0">
                                 <span>
-                                    <strong className="font-bold">Acabado en:</strong>:{" "}
+                                    <strong className="font-bold">Acabado en: </strong>:{" "}
                                     {/* {new Date(project.date).toLocaleDateString()} */}
                                     10/01/2021
                                 </span>
                                 <span>
-                                    <strong className="font-bold">Lugar</strong>:{" "}
+                                    <strong className="font-bold">Lugar </strong>:{" "}
                                     {/* {project.place} */}
                                     Ourense, Galicia
                                 </span>
                                 <span>
-                                    <strong className="font-bold">Tipo</strong>:{" "}
+                                    <strong className="font-bold">Tipo </strong>:{" "}
                                     {/* {project.projectType} */}
                                     Personal
                                 </span>
@@ -119,17 +119,17 @@ export default function Project() {
                             </h3>
                             <div className="text-gray-500 text-xs space-x-0">
                                 <span>
-                                    <strong className="font-bold">Acabado en:</strong>:{" "}
+                                    <strong className="font-bold">Acabado en: </strong>:{" "}
                                     {/* {new Date(project.date).toLocaleDateString()} */}
                                     20/12/2020
                                 </span>
                                 <span>
-                                    <strong className="font-bold">Lugar</strong>:{" "}
+                                    <strong className="font-bold">Lugar </strong>:{" "}
                                     {/* {project.place} */}
                                     Ourense, Galicia
                                 </span>
                                 <span>
-                                    <strong className="font-bold">Tipo</strong>:{" "}
+                                    <strong className="font-bold">Tipo </strong>:{" "}
                                     {/* {project.projectType} */}
                                     Escolar
                                 </span>
@@ -162,17 +162,17 @@ export default function Project() {
                             </h3>
                             <div className="text-gray-500 text-xs space-x-0">
                                 <span>
-                                    <strong className="font-bold">Acabado en:</strong>:{" "}
+                                    <strong className="font-bold">Acabado en: </strong>:{" "}
                                     {/* {new Date(project.date).toLocaleDateString()} */}
                                     00/00/0000
                                 </span>
                                 <span>
-                                    <strong className="font-bold">Lugar</strong>:{" "}
+                                    <strong className="font-bold">Lugar </strong>:{" "}
                                     {/* {project.place} */}
                                     Ourense, Galicia
                                 </span>
                                 <span>
-                                    <strong className="font-bold">Tipo</strong>:{" "}
+                                    <strong className="font-bold">Tipo </strong>:{" "}
                                     {/* {project.projectType} */}
                                     -------
                                 </span>

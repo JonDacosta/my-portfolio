@@ -22,7 +22,7 @@ export default function Home() {
 
                             <h2 className="whitespace-nowrap text-lg sm:text-3xl md:text-4xl lg:text-5xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__backInLeft lg:uppercase">Hola! Soy Jon.</h2>
                             <br />
-                            <h2 className="whitespace-nowrap text-lg sm:text-3xl md:text-4xl lg:text-5xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__slideInLeft lg:uppercase whitespace-pre-line">Desarrollador Frontend</h2>
+                            <h2 className="whitespace-nowrap text-lg sm:text-3xl md:text-4xl lg:text-5xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__slideInLeft lg:uppercase whitespace-pre-line">Desarrollador Web</h2>
                             <br />
                             <h2 className="typewriter whitespace-normal text-3xl sm:text-2xl md:text-4xl lg:text-5xl spring-green-400 font-bold leading-none lg:leading-snug purple-shadow animate__animated animate__slideInLeft lg:uppercase">Bienvenidos</h2>
                             <div className="sm:inline-flex pt-3 px-3 my-6 items-center justify-between">
