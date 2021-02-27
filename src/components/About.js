@@ -57,9 +57,6 @@ export default function About() {
                                 Aprendiendo React, con lo que he realizado este portfolio y como futuras tecnologías que me gustaría aprender se encuentra Vuejs, e ir poco a poco adentrándome en la parte de backend.
                                 <br />
                                 <br />
-                                Actualmente estoy buscando un puesto de desarrollador 💻
-                                <br />
-                                <br />
                                 ❤ 😺, 🎵 & ☕ 
                             </p>
                         </div>
